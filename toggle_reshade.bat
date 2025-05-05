@@ -3,6 +3,7 @@ setlocal
 
 REM Check if dxgi.dll exists
 if exist "dxgi.dll" (
+    echo DISABLING RESHADE
     ren "dxgi.dll" "dxgi 1.dll"
     echo Renamed dxgi.dll to dxgi 1.dll
 
@@ -15,6 +16,7 @@ if exist "dxgi.dll" (
 
 REM Else, check if dxgi 1.dll exists
 ) else if exist "dxgi 1.dll" (
+    echo ENABLING RESHADE
     ren "dxgi 1.dll" "dxgi.dll"
     echo Renamed dxgi 1.dll back to dxgi.dll
 
