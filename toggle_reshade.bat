@@ -30,4 +30,3 @@ REM Else, check if dxgi 1.dll exists
 )
 
 endlocal
-pause
