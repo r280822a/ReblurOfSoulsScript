@@ -17,7 +17,7 @@ if exist "dxgi.dll" (
     )
 
     REM Update desktop shortcut icon
-    powershell -ExecutionPolicy Bypass -File "%~dp0update_icon.ps1" disabled
+    powershell -ExecutionPolicy Bypass -File "%~dp0BLEACH_toggle_update_icon.ps1" disabled
 
 REM Else, check if dxgi 1.dll exists
 ) else if exist "dxgi 1.dll" (
@@ -35,7 +35,7 @@ REM Else, check if dxgi 1.dll exists
     )
 
     REM Update desktop shortcut icon
-    powershell -ExecutionPolicy Bypass -File "%~dp0update_icon.ps1" enabled
+    powershell -ExecutionPolicy Bypass -File "%~dp0BLEACH_toggle_update_icon.ps1" enabled
 
 ) else (
     echo Neither dxgi.dll nor dxgi 1.dll found.
