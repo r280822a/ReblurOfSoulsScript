@@ -25,7 +25,7 @@ A script to toggle the blur removal mod for **BLEACH: Rebirth of Souls** on and 
   This should create a `BLEACH Toggle Reshade Script` desktop shortcut, which you can double tap to run the script to toggle reshade on/off
 
 ## Notes
-The blur removal mod uses **Reshade** which is **not recommended to use online** (due to the nature of how it works) so EasyAntiCheat has to be disabled whenever Reshade is used. This script toggles Reshade and EasyAntiCheat on/off depending on if you want to play online or not, and creates a desktop shortcut (`BLEACH Toggle Reshade Script.lnk`) to reflect whether Reshade is on/off
+The blur removal mod uses **Reshade** which is **not recommended to use online** (due to the nature of how it works) so EasyAntiCheat has to be disabled whenever Reshade is used. This script toggles Reshade and EasyAntiCheat on/off depending on if you want to play online or not, and creates a desktop shortcut (`BLEACH Toggle Reshade Script.lnk`) to reflect whether Reshade is enabled or disabled
 
 ## What The Script Does
 - If Reshade is currently enabled (`dxgi.dll` present), it:
