@@ -5,7 +5,12 @@ A script to toggle the blur removal mod for **BLEACH: Rebirth of Souls** on and 
 <img src='https://github.com/user-attachments/assets/b0b4c5f4-055a-4fce-8b31-2b91300c31f8' width='200'>
 </p>
 
+## Comparison
+
+<p align='center'><img src='https://github.com/user-attachments/assets/0b7beada-c302-4821-a5ad-cfd2dd575c2a' width='800'></p>
+
 ## How to Use
+
 
 1. **Download the Remove Blur Mod**<br>
   Get it here: [https://gamebanana.com/mods/585054](https://gamebanana.com/mods/585054)<br>
